@@ -1,0 +1,47 @@
+# ===== ROS 2 / colcon 构建产物（必忽略，编译生成，体积大且含本机绝对路径）=====
+build/
+install/
+log/
+
+# ===== 安装脚本产生的标记文件 =====
+install_ros2_ws
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build-py/
+venv/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== C/C++ =====
+*.o
+*.so
+*.a
+*.d
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+
+# ===== 编辑器 / IDE =====
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
